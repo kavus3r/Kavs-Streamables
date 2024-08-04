@@ -1,3 +1,4 @@
+
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/kavus3r/Rayfield/main/Rayfield'))()
 
 
@@ -83,7 +84,7 @@ local Button = Tab:CreateButton({
  })
 
  local Button = Tab:CreateButton({
-    Name = "Camlock1",
+    Name = "Kavs Camlock1",
     Callback = function()
         getgenv().RecurringPoint = "UpperTorso"
         getgenv().Hitbox = "UpperTorso"
@@ -106,7 +107,7 @@ local Button = Tab:CreateButton({
  })
 
  local Button = Tab:CreateButton({
-   Name = "Camlock2",
+   Name = "Kavs Camlock2",
    Callback = function()
       pcall(function()
          local espcolor = Color3.fromRGB(140, 69, 102)
@@ -539,7 +540,7 @@ local Button = Tab:CreateButton({
                                  urmom.Color3 = espcolor
                                  urmom.Size = p.Size
                                  urmom.Adornee = p
-                                 urmom.Name = tick().." Ur mom has big gay"
+                                 urmom.Name = tick().." If ur reading this means ur tryna skid its fine cus i got your info"
                                  urmom.Transparency = wallhack_esp_transparency
                                  urmom.Parent = fold
                                  if p.Name == "Head" then
