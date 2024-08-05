@@ -32,7 +32,7 @@ local Tab = Window:CreateTab("Kavs Streamable", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Op Streamable")
 
 local Button = Tab:CreateButton({
-    Name = "kavs Main",
+    Name = "Silent Aim",
     Callback = function()
         local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/kavuserr/GUI/main/GUI"))()
         NotifyLib.prompt('Dm .kavuser For resolver for it', 'Loading..', 2)
@@ -83,7 +83,7 @@ local Button = Tab:CreateButton({
  })
 
  local Button = Tab:CreateButton({
-    Name = "kavs Camlock1",
+    Name = "Camlock",
     Callback = function()
         getgenv().RecurringPoint = "UpperTorso"
         getgenv().Hitbox = "UpperTorso"
@@ -106,7 +106,7 @@ local Button = Tab:CreateButton({
  })
 
  local Button = Tab:CreateButton({
-   Name = "kavs Camlock2",
+   Name = "Target Lock",
    Callback = function()
       pcall(function()
          local espcolor = Color3.fromRGB(140, 69, 102)
