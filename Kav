@@ -13,8 +13,7 @@ local Window = Rayfield:CreateWindow({
    },
    Discord = {
       Enabled = false,
-      Invite = "ABCD", -- The Discord invite code, do not include discord.gg/
-      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+      Invite = "ABCD", -- The Discord invite code, do not include https://discord.gg/aGaXuNSXpX = true -- Set this to false to make them join the discord every time they load it up
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
@@ -70,15 +69,15 @@ local Button = Tab:CreateButton({
         ---        \\//
         
         
-        ---source code created by .lua 
+        ---source code created by Kav 
         print("Kav")
         print("Timer : 0")
         print("loaded")
         wait(4)
         local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/kavus3r/Kavs-Streamable/main/Kav"))()
-        NotifyLib.prompt('Kavs Silent - Fov is 20 or higher', 'Loading..', 5)
-        NotifyLib.prompt('Kavs Silent - shoot above head if needed', 'Loading..', 5)
-        NotifyLib.prompt('Kavs Silent - Love from Kav', 'Loading..', 5)
+        NotifyLib.prompt('Kavs Silent - This is paid to win', 'Loading..', 5)
+        NotifyLib.prompt('Kavs Silent - Hit good clips', 'Loading..', 5)
+        NotifyLib.prompt('Kavs Silent - Love from Kav', 'Loaded..', 5)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kavus3r/Dependencies/main/Dependencies"))() 
     end,
  })
