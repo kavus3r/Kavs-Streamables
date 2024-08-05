@@ -3,13 +3,13 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/kavu
 
 
 local Window = Rayfield:CreateWindow({
-   Name = "kavs Streamable",
-   LoadingTitle = "kavs Streamable",
+   Name = "Kavs Panel",
+   LoadingTitle = "Kavs Panel",
    LoadingSubtitle = "by Kav | creds to federal",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Kavs Streamable"
+      FileName = "Kavs Panel"
    },
    Discord = {
       Enabled = false,
@@ -17,19 +17,19 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "kavs streamable",
+      Title = "Kavs Panel",
       Subtitle = "Key System",
-      Note = "kavs streamable",
-      FileName = "kav",
+      Note = "Kavs Panel",
+      FileName = "Kav",
       SaveKey = true,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = "kav"
    }
 })
 
-local Tab = Window:CreateTab("Kavs Streamable", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Kavs Panel", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("Op Streamable")
+local Section = Tab:CreateSection("Op Panel")
 
 local Button = Tab:CreateButton({
     Name = "Silent Aim",
